@@ -7050,7 +7050,7 @@ CONFIG_SECURITY_DSMS=y
 # CONFIG_GAF is not set
 CONFIG_DEFAULT_SECURITY_SELINUX=y
 # CONFIG_DEFAULT_SECURITY_DAC is not set
-CONFIG_LSM="landlock,lockdown,yama,loadpin,safesetid,selinux,smack,tomoyo,apparmor,bpf,baseband_guard"
+CONFIG_LSM="landlock,lockdown,yama,loadpin,safesetid,selinux,smack,tomoyo,apparmor,bpf"
 CONFIG_DDAR=y
 # CONFIG_DDAR_KEY_DUMP is not set
 
@@ -7088,7 +7088,7 @@ CONFIG_RANDSTRUCT_NONE=y
 #
 # Baseband Security Guard Configuration
 #
-CONFIG_BBG=y
+# CONFIG_BBG is not set
 # CONFIG_BBG_BLOCK_BOOT is not set
 # CONFIG_BBG_BLOCK_RECOVERY is not set
 # end of Baseband Security Guard Configuration
